@@ -1,0 +1,405 @@
+* {
+	-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-webkit-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-moz-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	-o-transition: width 1s ease-in-out, left 1.5s ease-in-out;
+	transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}
+
+
+/*---------------------------------------------------------------------------------------------------
+							header-area
+---------------------------------------------------------------------------------------------*/
+
+.header-area {
+	background:#111111;
+	
+}
+.menu ul {
+	list-style:none;
+	margin:0;	
+}
+
+.menu>ul>li {
+	float:left;
+	position:relative;
+	margin-right:2px;	
+}
+
+.menu ul li a {
+	color:#ecf0f1;
+	text-decoration:none;
+	text-transform:capitalize;
+	padding:10px 20px;
+	display:block;
+	
+}
+/* .menu>ul>li>a { */
+	/* border:1px solid transparent; */
+	/* border-radius:5px; */
+/* } */
+
+.menu ul li:hover a {
+	background:#0064A0;
+}
+.menu ul li ul li:hover a{
+	background:#34495e;
+}
+
+.menu ul:after {
+	content:'';
+	clear:both;
+	display:block;
+}
+
+.menu ul ul{
+	padding-left:0;
+	position:absolute;
+	top:100%;
+	left:0;
+	min-width:220px;
+	display:none;
+	z-index:9999;
+		
+}
+.menu ul .current a {
+	background:#0064A0;
+}
+
+.menu ul ul li:hover a {
+	background:#0064A0;;
+	
+}
+.menu ul li:hover>ul {
+	display:block;
+}
+
+
+.header-area .logo-area h1 {
+	
+	font-family: 'Monoton', cursive;
+	color:white;
+	font-size:36px;
+	line-height:0.1;
+	
+}
+.header-area .logo-area p {
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	font-size:12px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header-area .logo-area a{
+	text-decoration:none;
+}
+.header-area .logo-area h1:hover {
+	cursor:pointer;
+	color:#1abc9c;
+}
+
+
+.search {
+	padding-top:20px;
+}
+.menu {
+	padding-top:20px;
+}
+
+
+/*---------------------------------------------------------------------------------------------------
+							admin-login
+------------------------------------------------------------------------------------------------*/
+
+
+
+
+#top {
+	border-bottom: 4px solid #0097C4;
+	background: url("images/dark.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-bottom: 10px;
+}
+#footer {
+	border-top: 4px solid #0097C4;
+	background: url("images/dark.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	margin-top: 48px;
+	padding-top: 15px;
+	padding-bottom: 1px;
+}
+
+#footer .footer-menu ul li a {
+	color:#ecf0f1;
+	text-decoration:none;
+	font-size:12px;
+}
+#footer .footer-menu ul li a:hover {
+	color:#3498db;
+}
+
+.footer-area2 {
+	background:#58656F;
+	
+}
+
+.footer-area2 p {
+	padding:10px 0;
+	color:#FFFFFF;
+	font-size:11px;
+}
+
+.copyrights {
+    display: block;
+    width: 100%;
+	text-align: center;
+    padding-top: 12px;
+	color: #FFFFFF;
+    font-size: 11px;
+}
+.logo {
+	float: left;
+	width: auto;
+	margin-left: 20px;
+}
+.logo img {
+	width: 53px; margin-top: 4px;
+}
+.welcome {
+	height: 20px;
+    padding: 12px 14px;
+	float: right;
+	margin-right: 20px;
+	padding-right: 0px;
+}
+.welcome img {
+	float: left;
+}
+.welcome > span {
+    color: #FFFFFF;
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 32px;
+    white-space: nowrap;
+	line-height: 20px;
+	margin-top: 1px;
+}
+.one-third1 ul {
+	height: auto;
+	margin: 0;
+	padding: 0;
+	list-style: none outside none;
+}
+.one-third1 ul li {
+    margin-top: 1px;
+    position: relative;
+	line-height: 20px;
+}
+.active {
+	background: none repeat scroll 0 0 #0097C4;
+}
+.active a {
+	color: #ffffff !important;
+}
+.one-third1 ul li a {
+    border: 1px solid #D5D5D5;
+    color: #333333;
+    display: block;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 11px 14px;
+	text-decoration: none;
+}
+.one-third1 ul li a:hover {
+	color: #0097C4;
+}
+.one-third1 ul li a img {
+	float: left;
+	margin-right: 5px;
+}
+.one-third1 ul li a span {
+    display: block;
+    white-space: nowrap;
+	margin-top: 1px;
+}
+#formdesign {
+	background: linear-gradient(to bottom, #FFFFFF 0%, #F6F6F6 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #D5D5D5;
+    padding: 12px;
+    position: relative;
+	margin: 20px 0;
+}
+#filter {
+	-moz-box-sizing: border-box;
+    background: url("images/big_search.png") no-repeat scroll 10px 10px #FFFFFF;
+    box-shadow: none;
+    display: block;
+    font-size: 12px;
+    height: 34px;
+    margin: 0;
+    padding: 9px 140px 9px 28px;
+    width: 100%;
+	border: 1px solid #DADADA;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+	padding-top: 6px;
+}
+table {
+    border-collapse: separate;
+	background-color: #FFFFFF;
+    border-spacing: 0;
+    max-width: 100%;
+}
+#resultTable {
+	color: #000000;
+    text-shadow: 0 1px 0 #FFFFFF;
+	width: 100%;
+	border: 1px solid #CCCCCC;
+	box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.3);
+}
+#resultTable thead tr th {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #222222;
+    padding: 10px 14px;
+    text-align: left;
+	border-top: 0 none;
+	font-size: 12px;
+}
+
+#resultTable tbody tr td{
+    background-color: #FFFFFF;
+	font-size: 11px;
+    text-align: left;
+	padding: 10px 14px;
+	border-top: 1px solid #DDDDDD;
+}
+
+.record td a img{
+	height: 50px;
+	width: 50px;
+}
+
+/* #Base 960 Grid
+================================================== */
+	.container .column,
+    .container .columns {
+		float: left; display: inline; margin-left: 10px; margin-right: 10px;
+	}
+	.container .one-third1.column {
+		width: 163px;
+	}
+    .container .two-thirds1.column  {
+		width: 100%;
+		border: double #D5D5D5;
+		padding-bottom: 20px;
+	}
+	.thewraper {
+		margin: 0 20px;
+	}
+	
+/* #Tablet (Portrait)
+================================================== */
+/* Note: Design for a width of 768px */
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.container {
+		width: 768px;
+	}
+	.container .column,
+    .container .columns {
+		margin-left: 10px; margin-right: 10px;
+	}
+	.container .one-third1.column {
+		width: 125px;
+	}
+    .container .two-thirds1.column  {
+		width: 720px;
+	}
+	.thewraper {
+		margin: 0 10px;
+	}
+}
+/*  #Mobile (Portrait)
+================================================== */
+/* Note: Design for a width of 320px */
+
+@media only screen and (max-width: 767px) {
+	.container {
+		width: 300px;
+	}
+	.container .columns,
+    .container .column { margin: 0; }
+	.container .one-third1.column {
+		width: 300px;
+	}
+    .container .two-thirds1.column  {
+		width: 300px;
+		border: none;
+	}
+	.thewraper {
+		margin: 20px 0;
+	}
+}
+/* #Mobile (Landscape)
+================================================== */
+/* Note: Design for a width of 480px */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.container {
+		width: 420px;
+	}
+	.container .columns,
+    .container .column { margin: 0; }
+	.container .one-third1.column {
+		width: 420px;
+	}
+    .container .two-thirds1.column  {
+		width: 420px;
+		border: none;
+	}
+	.thewraper {
+		margin: 20px 0;
+	}
+}
+
+input{
+	border: 1px solid #000000;
+	/*width: 270px;*/
+	padding: 5px;
+	margin-bottom: 10px;
+}
+select{
+	border: 1px solid #000000;
+	width: 270px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+textarea{
+	border: 1px solid #000000;
+	width: 270px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+/* #Clearing
+================================================== */
+
+    /* Self Clearing Goodness */
+    .container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+    .row,
+    .clearfix {
+      zoom: 1; }

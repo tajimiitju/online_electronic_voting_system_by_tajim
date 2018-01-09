@@ -1,0 +1,501 @@
+
+
+/*-----------------------------------------------------------------------------------------------
+						              Header-area
+------------------------------------------------------------------------------------------------*/
+.header-area {
+	background:#111111;
+	
+}
+.menu ul {
+	list-style:none;
+	margin:0;	
+}
+
+.menu>ul>li {
+	float:left;
+	position:relative;
+	margin-right:2px;	
+}
+
+.menu ul li a {
+	color:#ecf0f1;
+	text-decoration:none;
+	text-transform:capitalize;
+	padding:10px 20px;
+	display:block;
+	
+}
+/* .menu>ul>li>a { */
+	/* border:1px solid transparent; */
+	/* border-radius:5px; */
+/* } */
+
+.menu ul li:hover a {
+	background:#0064A0;
+}
+.menu ul li ul li:hover a{
+	background:#34495e;
+}
+
+.menu ul:after {
+	content:'';
+	clear:both;
+	display:block;
+}
+
+.menu ul ul{
+	padding-left:0;
+	position:absolute;
+	top:100%;
+	left:0;
+	min-width:220px;
+	display:none;
+	z-index:9999;
+		
+}
+ .current  {
+	background:#0064A0;
+}
+
+
+
+.menu ul ul li:hover a {
+	background:#0064A0;;
+	
+}
+.menu ul li:hover>ul {
+	display:block;
+}
+
+
+.header-area .logo-area h1 {
+	
+	font-family: 'Monoton', cursive;
+	color:white;
+	font-size:36px;
+	line-height:0.1;
+	
+}
+.header-area .logo-area p {
+	font-family: 'Roboto', sans-serif;
+	color:white;
+	font-size:12px;
+	font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.header-area .logo-area a{
+	text-decoration:none;
+}
+.header-area .logo-area h1:hover {
+	cursor:pointer;
+	color:#1abc9c;
+}
+
+
+.search {
+	padding-top:20px;
+}
+.menu {
+	padding-top:20px;
+}
+
+
+/*------------------------------------------------------------------------------------------
+								content-area 
+-----------------------------------------------------------------------------------------*/
+.content-area {
+	padding:10px 0 50px;
+	background-color:#D0DCEC;
+	min-height:100px;
+	
+	
+}
+
+.content-area .left-area{
+	line-height:1.5em;
+	margin-right:0;
+	padding:0;
+	background-color:white;
+	border-right:7px solid #cccccc;
+	min-height: 480px;
+	
+}
+.content-area .left-area ul{
+	list-style-type:square;
+}
+.content-area .commission {
+	/* border:1px solid black; */
+	background:#FFFFFF;
+}
+
+
+.content-area  .title{
+	/* border-bottom:1px solid black; */
+	text-align:left;
+	color:#164F85;
+	background:#FFFFFF;
+	margin-left:10px;
+}
+.content-area .lists ul li {
+	padding:6px;
+	cursor:pointer;
+}
+
+.content-area .lists ul li a {
+	color:#081160;
+	text-decoration:none;
+	
+}
+.content-area .lists ul li:hover a{
+	color:#FFFFFF;
+} 
+.content-area .lists ul li:hover {
+	background:#0064A0;
+	opacity:1;
+	color:#ffffff;
+}
+.content-area .observation {
+	margin-top:30px;
+	/* border:1px solid black; */
+	background:#FFFFFF;
+}
+
+.content-area .title h5{
+	font-family: 'Ubuntu', sans-serif;
+	font-size:15px;
+	color:#111111;
+	font-weight:700;
+	
+
+}
+
+
+
+.content-area h1 {
+	color:#111111;
+	text-shadow: 2px 5px 1px #0064A0;
+	font-family: 'Alfa Slab One', cursive;
+	letter-spacing:2px;
+}
+.content-area .election-name {
+	padding:20px 0  0 50px;
+}
+.middle-area {
+	background:#F0F0F0;
+	margin:0;
+	min-height: 480px;
+	overflow: hidden;
+	margin:0;
+
+}
+.middle-area ul li{
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+	line-height:2em;
+	font-size: 16px;
+}
+.middle-area h2{
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+}
+
+.right-area {
+	
+	min-height: 400px;
+}
+
+
+
+
+
+.right-area h4 {
+	background:white;
+	border:1px solid #111111;
+	border-radius:5px;
+	font-size:15px;
+	/* letter-spacing:1px; */
+	line-height:1.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:700;
+	padding:10px 20px;
+	color:#0066A1;
+
+}
+.right-area img:hover {
+	transform:scale(1.5);
+	box-shadow:20x 5px 5px white;
+	opacity:1;
+	cursor:pointer;
+	
+
+}
+
+.right-area .link{
+	background:white;
+	text-decoration:none;
+	border:1px solid #111111;
+	border-radius:5px;
+	font-size:15px;
+	line-height:3.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:700;
+	padding:10px 20px;
+	color:#0066A1;
+	display:inline;
+	margin-right:7px;
+	overflow: hidden;
+
+	
+}
+.right-area .link2{
+	background:#0066A1;
+	text-decoration:none;
+	border:1px solid #111111;
+	border-radius:5px;
+	font-size:15px;
+	line-height:3.5em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:700;
+	padding:8px 60px;
+	color:#FFFFFF;
+	display:inline;
+	margin-right:7px;
+	overflow: hidden;
+	
+	
+}
+
+
+.right-area .link:hover{
+	color:white;
+	background:#0066A1;
+}
+.right-area .link2:hover{
+	color:#0066A1;
+	background:white;
+}
+
+.fb-icon {
+	font-size:28px;
+	
+	
+}
+
+
+/*------------------------------------------------------------------------------------------------
+								Question area 
+-------------------------------------------------------------------------------------------------*/
+.question {
+	background:linear-gradient(to bottom, #FFFFFF, #cccccc);
+	padding:20px 5px 20px 100px;
+	
+	
+}
+
+.question-area{
+	background: linear-gradient(to bottom, #83a4d4 , #b6fbff);
+	padding:30px 10px 20px 10px;
+	min-height: 400px;
+	margin-top:10px;
+	
+}
+.question-area h2 {
+	font-size:28px;
+	text-shadow: 2px 4px 2px #2080E5;
+	font-family: 'Bree Serif', serif;
+	margin-bottom:20px;
+}
+.question-area ul li {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight:400;
+	line-height:2.0em;
+	
+	font-size:16px;
+	
+}
+
+/* .question-area hr { */
+	
+	/* border-left:0; */
+	/* border-right:0; */
+	/* border-top:0; */
+	/* border-bottom: 1px solid #5CB2BF; */
+	/* width:25%; */
+/* } */
+/*-------------------------------------------------------------------------------------------------
+								footer-area 
+---------------------------------------------------------------------------------------------------*/
+
+.footer-area1 {
+	background:#141517;
+	padding-top:15px;
+}
+
+.footer-area1 .footer-menu ul li a {
+	color:#ecf0f1;
+	text-decoration:none;
+	font-size:12px;
+}
+.footer-area1 .footer-menu ul li a:hover {
+	color:#3498db;
+}
+/* .footer-area1 .social-area { */
+	/* padding-top:10px; */
+/* } */
+/* .footer-area1 .social-area ul li a { */
+	/* color:#3498db; */
+	/* text-decoration:none; */
+	/* font-size:18px; */
+/* } */
+/* .footer-area1 .social-area ul li a :hover { */
+	/* color:#FFFFFF; */
+/* } */
+/* .footer-area1 .social-area ul li { */
+	/* margin:0 5px; */
+/* } */
+
+
+.footer-area2 {
+	background:#2B3842;
+	
+}
+
+.footer-area2 p {
+	padding:10px 0;
+	color:#FFFFFF;
+	font-size:11px;
+}
+
+
+
+
+
+/* .social-icons ul { */
+	/* list-style: none; */
+	/* padding:10px 0; */
+	/* margin-left:500px; */
+/* } */
+/* .social-icons ul li { */
+	/* float: left; */
+	/* margin-right:10px; */
+/* } */
+/* .social-icons ul li a { */
+	/* display: block; */
+	/* height: 48px; */
+	/* width: 48px; */
+	/* background-image: url('images/social2.png'); */
+	/* transition-duration: 1s; */
+	/* text-align:center; */
+/* } */
+
+
+
+
+
+/* .social-icons ul .twitter a { */
+	/* background-position: 0 0; */
+/* } */
+/* .social-icons ul .twitter a:hover { */
+	/* background-position: 0px -48px; */
+/* } */
+/* .social-icons ul .facebook a { */
+	/* background-position: 384px 0; */
+/* } */
+/* .social-icons ul .facebook a:hover { */
+	/* background-position: 384px -48px; */
+/* } */
+
+
+/* .social-icons ul .google-plus a { */
+	/* background-position: 336px 0; */
+/* } */
+/* .social-icons ul .google-plus a:hover { */
+	/* background-position: 336px -48px; */
+/* } */
+/* .social-icons ul .linkedin a { */
+	/* background-position:  288px 0; */
+/* } */
+/* .social-icons ul .linkedin a:hover { */
+	/* background-position:  288px -48px; */
+/* } */
+
+
+
+/*****************************************slider area********************************/
+
+.content-slider{
+	
+	position:relative;
+	text-align: center;
+	width:100%;
+	height:auto;
+	left:0;
+	right:0;
+	top:0; 
+	margin:0;
+
+
+}
+
+
+/*********************** Ques-area***************************************/
+.question-area{
+	padding:10px;
+}
+
+
+/******************laws-area**************************/
+.laws-area p{
+	font-size: 16px;
+	
+
+}
+
+/****************address-area************************/
+
+.address-area {
+
+	padding:10px 0 30px 0;
+	background-color: #004F50;
+	color:white;
+}
+.address-area h2 {
+	margin:20px 0 50px 0;
+
+}
+
+.address-area a {
+	font-size:18px;
+	border:16px solid #7FA7A7;
+	
+	width:100px;
+	height:100px;
+	border-radius: 50%;
+	background-color: #7FA7A7;
+	color:white;
+	text-align:left;
+
+}
+.address-area h5{
+	margin-top:20px;
+	margin-bottom: 1px;
+}
+
+.address-area p {
+	margin:1px;
+	text-align: left;
+	margin-left:0;
+}
+
+.contact-form {
+	margin-top: 40px;
+
+}
+
+.row {
+	padding:10px;
+}
+
+textarea {
+	color:#cccccc;
+}
